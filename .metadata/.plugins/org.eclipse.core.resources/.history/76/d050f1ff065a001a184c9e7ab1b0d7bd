@@ -1,0 +1,14 @@
+package com.adb;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@EnableEurekaServer
+public class Stage03AdbDiscoveryServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Stage03AdbDiscoveryServiceApplication.class, args);
+	}
+
+}
